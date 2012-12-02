@@ -23,6 +23,6 @@ Triangle 2 (with only a single texture) does not affect triangles 1 and 4.
 
 Outlines on triangles 1 and 4 are faded.
 
-<img src="http://imgur.com/GZwf6" />
+<img src="http://imgur.com/GZwf6.png" />
 
 Outlines on triangles 1 and 4 look normal.
