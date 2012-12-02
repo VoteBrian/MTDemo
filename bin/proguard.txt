@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:12
+-keep class net.votebrian.demos.mtdemo.MTActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:8
+-keep class net.votebrian.demos.mtdemo.SurfaceView { <init>(...); }
+
