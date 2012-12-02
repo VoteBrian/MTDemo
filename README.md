@@ -19,10 +19,10 @@ Triangle 2 (with only a single texture) does not affect triangles 1 and 4.
 ---
 
 ## Screenshots
-<img src="https://docs.google.com/open?id=0B23IGY-IeqHXMUZCa3Z4N2JHUXM" />
+<img src="http://i.imgur.com/Id2e7.png" />
 
 Outlines on triangles 1 and 4 are faded.
 
-<img src="https://docs.google.com/open?id=0B23IGY-IeqHXTllhM0JJSWdOSW8" />
+<img src="http://imgur.com/GZwf6" />
 
 Outlines on triangles 1 and 4 look normal.
