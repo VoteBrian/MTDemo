@@ -2,6 +2,8 @@
 
 Simple app created to demonstrate bug when implementing both mulit-texturing and drawing GL_LINES.
 
+*(Solution added below)*
+
 ---
 
 ## Setup
@@ -29,7 +31,7 @@ Outlines on triangles 1 and 4 look normal.
 
 ---
 
-## Fix
+## Solution
 To avoid conflicts with future draws, I needed to revert to gl.glActiveTexture(GL10.GL_TEXTURE0) after the Texture 2 block in Model.java.
 
 	// Texture 1
