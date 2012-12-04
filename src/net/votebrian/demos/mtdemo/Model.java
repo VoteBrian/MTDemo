@@ -171,6 +171,9 @@ public class Model {
                     gl.glTexEnvf(GL10.GL_TEXTURE_ENV, GL10.GL_TEXTURE_ENV_MODE, GL10.GL_DECAL);
                     gl.glTexCoordPointer(2, GL10.GL_FLOAT, 0, mTexCoordBuffer2);
                     gl.glEnable(GL10.GL_TEXTURE_2D);
+
+                    // Revert to avoid conflicts with other draws
+                    gl.glActiveTexture(GL10.GL_TEXTURE0);
                     break;
             }
 
